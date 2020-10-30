@@ -1,8 +1,8 @@
-<h1>New Coupon</h1>
+<h1>Coupon Form</h1>
 
 <%= form_tag coupons_path do %>
     <div><%= label_tag :coupon_code, "Coupon Code"%></div>
-     <div><%= number_field_tag :coupon_code%></div>
+     <div><%= text_field_tag :coupon_code%></div>
 
     <div><%= label_tag :store, "Store"%></div>
      <div><%= text_field_tag :store%></div>
